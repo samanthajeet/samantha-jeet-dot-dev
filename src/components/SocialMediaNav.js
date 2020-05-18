@@ -18,23 +18,23 @@ const SocialMediaNav = () => {
   return (
     <SocialMediaNavContainer>
       <SocialIcaon>
-          <a href={igURL} target="_blank">
-            <img src={instagram_icon} />
+          <a href={igURL} target="_blank" rel="noopener noreferrer">
+            <img src={instagram_icon} alt="instagram" />
           </a>
       </SocialIcaon>
       <SocialIcaon>
-          <a href={twitterURL} target="_blank">
-            <img src={twitter_icon} />
+          <a href={twitterURL} target="_blank" rel="noopener noreferrer">
+            <img src={twitter_icon} alt="twitter" />
           </a>
       </SocialIcaon>
       <SocialIcaon>
-          <a href={linkedInURL} target="_blank">
-            <img src={linkedin_icon} />
+          <a href={linkedInURL} target="_blank" rel="noopener noreferrer">
+            <img src={linkedin_icon} alt="linkedin" />
           </a>
       </SocialIcaon>
       <SocialIcaon>
-          <a href={githubURL} target="_blank">
-            <img src={github_icon} />
+          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <img src={github_icon} alt="github" />
           </a>
       </SocialIcaon>
     </SocialMediaNavContainer>

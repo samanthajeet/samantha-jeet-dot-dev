@@ -11,7 +11,9 @@ export const AppContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 95vh;
+  width: 100vw;
+  margin: 1rem 0;
 `;
 
 export const MainContent = styled.section`
@@ -48,7 +50,8 @@ export const Paragraph = styled.p`
 `;
 
 export const TextArea = styled.section`
-  width: 30rem;
+  width: 35rem;
+  min-width: 40vw;
   margin-bottom: 2rem;
     @media (max-width: 768px) {
     width: 90vw;
@@ -56,10 +59,10 @@ export const TextArea = styled.section`
 
 `;
 export const SocialMediaNavContainer = styled.div`
-  width: 100%;
+  width: 30%;
+  min-width: 20rem;
   display: flex;
-  justify-content: center;
-  margin-top: .5rem;
+  justify-content: space-evenly;
 `;
 
 export const SocialIcaon = styled.div`
