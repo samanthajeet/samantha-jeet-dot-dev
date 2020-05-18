@@ -9,6 +9,8 @@ import {
   TextArea,
   SubTitle,
   MainContent,
+  LeftContainer
+  
 } from "./reusableComponents/StyledComponents";
 import profilephoto from "./images/profilephoto.jpg";
 import "./App.css";
@@ -18,10 +20,12 @@ function App() {
     <AppContainer>
       {/* <Loading /> */}
       <MainContent>
-        <ProfileImage>
-          <img src={profilephoto} />
+        <LeftContainer>
+          <ProfileImage>
+            <img src={profilephoto} />
+          </ProfileImage>
           <SocialMediaNav />
-        </ProfileImage>
+        </LeftContainer>
         <TextArea>
           <H1>samantha jeet</H1>
           <SubTitle>
@@ -72,7 +76,6 @@ function App() {
             in Geographic Information Sciences. She promised her mom she would
             mention that.
           </Paragraph>
-
         </TextArea>
       </MainContent>
     </AppContainer>

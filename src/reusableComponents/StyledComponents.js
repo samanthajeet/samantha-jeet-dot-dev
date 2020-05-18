@@ -70,3 +70,7 @@ export const SocialIcaon = styled.div`
     object-fit: contain;
   }
 `;
+
+export const LeftContainer = styled.section`
+    margin-bottom: .5rem;
+`
