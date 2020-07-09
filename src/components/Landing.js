@@ -22,7 +22,7 @@ function App() {
           </ProfileImage>
         </LeftContainer>
         <TextArea>
-          <H1>samantha jeet</H1>
+          <H1 className="text-shadow">samantha jeet</H1>
           <SubTitle>
             full-time stay at home daughter | internet maven | developer{" "}
           </SubTitle>
