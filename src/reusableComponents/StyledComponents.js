@@ -11,7 +11,7 @@ export const AppContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 95vh;
+  min-height: 90vh;
   width: 100vw;
   margin: 1rem 0;
 `;
