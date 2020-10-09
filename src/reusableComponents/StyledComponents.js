@@ -65,13 +65,12 @@ export const SocialMediaNavContainer = styled.div`
   justify-content: space-evenly;
 `;
 
-export const SocialIcaon = styled.div`
+export const SocialIcon = styled.div`
   height: 1.25rem;
   margin-right: 1rem;
-  img {
-    height: 100%;
-    object-fit: contain;
-  }
+  ion-icon {
+  color: black;
+}
 `;
 
 export const LeftContainer = styled.section`

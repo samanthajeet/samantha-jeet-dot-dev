@@ -1,10 +1,6 @@
 import React from "react";
-import instagram_icon from "../images/icons/instagram_icon.png";
-import linkedin_icon from "../images/icons/linkedin_icon.png";
-import twitter_icon from "../images/icons/twitter_icon.png";
-import github_icon from '../images/icons/github_icon.png'
 import {
-  SocialIcaon,
+  SocialIcon,
   SocialMediaNavContainer,
 } from "../reusableComponents/StyledComponents";
 
@@ -17,26 +13,26 @@ const SocialMediaNav = () => {
 
   return (
     <SocialMediaNavContainer>
-      <SocialIcaon>
+      <SocialIcon>
           <a href={igURL} target="_blank" rel="noopener noreferrer">
-            <img src={instagram_icon} alt="instagram" />
+            <ion-icon name="logo-instagram" size="large"></ion-icon>
           </a>
-      </SocialIcaon>
-      <SocialIcaon>
+      </SocialIcon>
+      <SocialIcon>
           <a href={twitterURL} target="_blank" rel="noopener noreferrer">
-            <img src={twitter_icon} alt="twitter" />
+            <ion-icon name="logo-twitter" size="large"></ion-icon>
           </a>
-      </SocialIcaon>
-      <SocialIcaon>
+      </SocialIcon>
+      <SocialIcon>
           <a href={linkedInURL} target="_blank" rel="noopener noreferrer">
-            <img src={linkedin_icon} alt="linkedin" />
+            <ion-icon name="logo-linkedin" size="large"></ion-icon>
           </a>
-      </SocialIcaon>
-      <SocialIcaon>
+      </SocialIcon>
+      <SocialIcon>
           <a href={githubURL} target="_blank" rel="noopener noreferrer">
-            <img src={github_icon} alt="github" />
+            <ion-icon name="logo-github" size="large"></ion-icon>
           </a>
-      </SocialIcaon>
+      </SocialIcon>
     </SocialMediaNavContainer>
   );
 };
