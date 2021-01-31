@@ -34,7 +34,7 @@ const Navigation = () => {
           <h1 className="text-shadow">sj</h1>
         </Link>
         <Link to="/">about</Link>
-        <Link to="/reading">reading</Link>
+        {/* <Link to="/reading">reading</Link> */}
       </Nav>
     </>
   );

@@ -6,7 +6,7 @@ import BooksDashboard from './components/books/BooksDashboard'
 
 export default (
   <Switch>
-    <Route path='/books' component={BooksDashboard} />
+    <Route path='/reading' component={BooksDashboard} />
     <Route path='/' component={Landing} />
   </Switch>
 )
