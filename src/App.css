@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100vw;
+}
+
+body #fonts{ 
+  font-family: "Nunito", sans-serif;
+}
+
 .text-shadow {
   text-shadow: -2px 2px 0px #ffae00;
 }
